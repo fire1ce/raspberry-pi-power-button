@@ -11,4 +11,4 @@ sudo chmod +x power_button.py
 sudo mv power_button.py /usr/local/bin
 sudo mv power_button.service /etc/systemd/system
 sudo systemctl start power_button.service
-sudo systemctl enable power_butto.service
+sudo systemctl enable power_button.service
