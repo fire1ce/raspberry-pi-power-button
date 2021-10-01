@@ -7,6 +7,9 @@ When Raspberry Pi is powered off, shortening GPIO3 (Pin 5) to ground will wake t
 
 This script will use pin GPIO3(5), Ground(6) with momentary button.
 
+![gpio layout](https://github.com/fire1ce/raspberry-pi-power-button/raw/main/gpio_layout.jpg)
+
+
        3V3  (1) (2)  5V         
      GPIO2  (3) (4)  5V         
     -----------------------     
