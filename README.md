@@ -43,13 +43,12 @@ This script will use pin GPIO3(5), Ground(6) with momentary button.
 
 ## Requirements
 
-* wget
 * python3-gpiozero
 
 Can be install via apt
 
 ```bash
-sudo apt install python3-gpiozero wget
+sudo apt install python3-gpiozero
 ```
 
 ### Software
@@ -60,6 +59,17 @@ sudo apt install python3-gpiozero wget
   Zero](https://gpiozero.readthedocs.io/en/stable/) (tested on version 1.4.0)
 
 ## Installation
+
+```bash
+curl https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/install.sh | bash
+```
+
+## Uninstall
+
+```bash
+curl https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/uninstall.sh | bash
+```
+
 
 ### Hardware
 
