@@ -1,7 +1,7 @@
 #!/bin/bash
 
-wget url
-wget url
+wget https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/power_button.py
+wget https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/power_button.service
 
 if [ ! -d "/usr/local/bin" ]; then
     sudo mkdir -p /usr/local/bin

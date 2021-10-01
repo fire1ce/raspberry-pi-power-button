@@ -32,24 +32,24 @@ This script will use pin GPIO3(5), Ground(6) with momentary button.
 
 ## Default Behavior
 
-| __Button Press When Pi is On__      | __Description__ |
-| ----------------------------------- | --------------- |
-| Single                              | Nothing         |
-| Double                              | Reboot          |
-| Long and releases (Above 3 seconds) | Power off       |
-
-| __Button Press When Pi is off__ | __Description__            |
-| ------------------------------- | -------------------------- |
-| Single                          | Powers on the Raspberry Pi |
+| __Button Press When Pi is On__      | __Description__            |
+| ----------------------------------- | -------------------------- |
+| Single                              | Nothing                    |
+| Double                              | Reboot                     |
+| Long and releases (Above 3 seconds) | Power off                  |
+| __Button Press When Pi is off__     | __Description__            |
+| -------------------------------     | -------------------------- |
+| Single                              | Powers on the Raspberry Pi |
 
 ## Requirements
 
-python3-gpiozero
+* wget
+* python3-gpiozero
 
 Can be install via apt
 
 ```bash
-sudo apt install python3-gpiozero
+sudo apt install python3-gpiozero wget
 ```
 
 ### Software
