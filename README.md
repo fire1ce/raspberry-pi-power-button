@@ -108,7 +108,7 @@ Enabling the service should produce output very similar to:
 
 You can check the status of the program at any time with the command:
 	
-    systemctl status shutdown_button.service
+    systemctl status power_button.service
 
 This should produce output similar to:
 	
