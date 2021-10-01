@@ -35,15 +35,15 @@ curl https://raw.githubusercontent.com/fire1ce/raspberry-pi-power-button/main/un
 
 ## Default Behavior
 
-| __Button Press (Raspberry Pi is __on__)__ | __Behavior__ |
+| __Button Press (Raspberry Pi is ON)__     | __Behavior__ |
 | ----------------------------------------- | ------------ |
 | Single                                    | Nothing      |
 | Double                                    | Reboot       |
 | Long press and releases (above 3 seconds) | Power off    |
 
-| __Button Press (Raspberry Pi is **off__ | __Behavior__               |
-| --------------------------------------- | -------------------------- |
-| Single                                  | Powers on the Raspberry Pi |
+| __Button Press (Raspberry Pi is OFF__ | __Behavior__               |
+| ------------------------------------- | -------------------------- |
+| Single                                | Powers on the Raspberry Pi |
 
 ## Check if service is running
 
