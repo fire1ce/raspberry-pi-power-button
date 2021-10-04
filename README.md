@@ -9,6 +9,8 @@ This script uses pin GPIO3(5), Ground(6) with momentary button.
 
 ![gpio layout](https://github.com/fire1ce/raspberry-pi-power-button/raw/main/gpio_layout.jpg)
 
+![raspberrypi-with-button](https://github.com/fire1ce/raspberry-pi-power-button/raw/main/raspberrypi-with-button.jpg)
+
 ## Requirements
 
 * python3-gpiozero
